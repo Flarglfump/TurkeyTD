@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://btc153mpdd4ki"]
+
+[ext_resource type="Texture2D" uid="uid://d2bjnaghlpxuh" path="res://Assets/Towers/HunterT4.png" id="1_16svi"]
+[ext_resource type="Texture2D" uid="uid://buktfx6mowahw" path="res://Assets/Towers/HunterWeapon4.png" id="2_5iw0g"]
+
+[node name="HunterT4" type="Node2D"]
+
+[node name="Hunter" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_16svi")
+
+[node name="Weapon" type="Sprite2D" parent="."]
+texture_filter = 1
+rotation = -6.28319
+texture = ExtResource("2_5iw0g")
+
+[node name="ProjectileSpawnMarker" type="Marker2D" parent="Weapon"]
+position = Vector2(17, 0)
