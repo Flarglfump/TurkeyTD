@@ -11,18 +11,16 @@ func turn():
 	var weapon = get_node("Weapon") as Sprite2D
 	var weaponAnchor = get_node("Hunter/WeaponAnchor") as Marker2D
 	
-	hunter.look_at(enemy_pos)
 	weapon.look_at(enemy_pos)
+	hunter.set_rotation_degrees(weapon.get_rotation_degrees() + 90)
 	
-	var weapon_rotation = abs((weapon.get_rotation_degrees() as int) % 360)
+	var weapon_rotation = abs(((weapon.get_rotation_degrees() as int) - 90) % 360)
 	
 	if (weapon_rotation < 180):
 
 		hunter.flip_h = true
-		weapon.flip_v = true
 	else:
 		hunter.flip_h = false
-		weapon.flip_v = false
 	
 	weapon.set_global_position(weaponAnchor.get_global_position())
 	

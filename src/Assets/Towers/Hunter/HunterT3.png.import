@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0jhwdelbxumu"
-path="res://.godot/imported/HunterWeapon1.png-75b7c1e77beb82ab3a9fb04d0268f8db.ctex"
+uid="uid://bcoyg20brfoxl"
+path="res://.godot/imported/HunterT3.png-21f5591c715cd87457bf1cdf83daa743.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Towers/HunterWeapon1.png"
-dest_files=["res://.godot/imported/HunterWeapon1.png-75b7c1e77beb82ab3a9fb04d0268f8db.ctex"]
+source_file="res://Assets/Towers/Hunter/HunterT3.png"
+dest_files=["res://.godot/imported/HunterT3.png-21f5591c715cd87457bf1cdf83daa743.ctex"]
 
 [params]
 
